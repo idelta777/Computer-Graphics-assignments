@@ -1,0 +1,27 @@
+float x1 = (float)Math.cos(2*Math.PI/5);
+float y1 = (float)Math.sin(2*Math.PI/5);
+float x2 = (float)Math.cos(4*Math.PI/5);
+float x2 = (float)Math.sin(4*Math.PI/5);
+.
+.
+.
+float x1 = (float)Math.cos(8*Math.PI/5);
+float x1 = (float)Math.sin(8*Math.PI/5);
+
+path.moveTo(x2,y2);
+path.lineTo(x0,y0);
+path.lineTo(x3,y3);
+path.lineTo(x1,y1);
+path.lineTo(x4,y4);
+path.closePath();
+
+AffineTRansform tr= new AffineTRansform();
+tr.setToScale(100,100);
+g2.translate(120,120);
+path=(GeneralPath)(path.createTransformedShape(tr);
+g2.draw(path);
+g2.translete(200,200);
+g2.fill(path);
+path.setWindingRule(GeneralPath.WIND_NON_ZERO);
+g2.translete(200,200);
+g2.fill(path);

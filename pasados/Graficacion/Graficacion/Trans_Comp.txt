@@ -1,0 +1,50 @@
+Composición de Transf
+Postmultiplicar
+P'=MP
+
+P"=M2(M1P)
+  =M2(M1P)
+P"=(M1M2)P<----
+
+Pn=(Mn Mn-1 ... M2 M1)P
+
+Premultiplicar
+
+Pn=(MnT Mn-1T ... M2T M1T)P
+
+Rotacion con respcto al punto P1(x,y)
+
+-Trasladar al origen
+-Aplicamos Rotacion
+-Trasladamos al del origen a P1
+
+M(T,P1)=T(P1)R(T)T(-P1)=
+
+|1  0  h||cos(T) -sin(T)  0||1  0  -h|
+|       ||                 ||        |
+|1  0  k||sin(T) cons(T)  0||0  1  -k|
+|       ||                 ||        |
+|0  0  1||0        0      1||0  0   1|
+
+
+
+Obtener la matriz de reflexion con respecto a una recata L aque no pasa por el origen
+Datos de L P1=(x,y) ä=(a1,a2) m= tan(T)= a2/a1
+
+
+1.T(-P1)
+2.R(-T)
+3.Mx
+4.R(T)
+5.T(P1)
+
+M1= T(P1)R(T)MxR(-T)T(-P1)
+
+Ej1
+El TRiengulo en venterices en a(0,0) b(1,1) c(5,2) ampliarlo al doble con respecto al punto c
+Ej2
+El cuadrilatero  a(-1,0) b(0,-2), c(1,0) d(0,2) Aplicar reflecion con respecto con a y=2, x=2, y=x+2
+
+
+
+setXORmode()

@@ -1,0 +1,2 @@
+Graficos2DCh2.ClockPanel
+Graficos2DCh2.Clock2D

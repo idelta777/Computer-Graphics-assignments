@@ -1,0 +1,2 @@
+Graficos2DCh2.Tarea.SpiroPanel
+Graficos2DCh2.Tarea.SpirographSliders

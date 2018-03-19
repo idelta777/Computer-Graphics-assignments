@@ -1,0 +1,20 @@
+FActor de escala
+mapeo isotropico
+
+pixelWidth [0,rWidth] ----> pixelWidth= rWidth/maxX
+pixelWidth [rHeigth,0] ---> pixelrHeigth= rHeigth/maxX
+
+int iX(float x){return Math.roud(x/pixelWidth)}
+float fx(int x){return (x*pixelWidth)}
+
+int iY(float y){return maxY - Math.round(y/pixelHeigth)}
+float fy (int y){return (maxY-y)*pixelHeigth)}
+
+mapeo anisotropico
+se calucula los facotores de escala y se toma el mayor y se le aplica ha ambos
+
+Dimeciones de pantalla
+
+Dimension d= getSize();
+ScreenXMax =d.widtgh-1;
+ScreenYMax =d.heigth-1;

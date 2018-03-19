@@ -1,0 +1,2 @@
+Graficos2DCh2.ImagePanel
+Graficos2DCh2.ImageProcessing

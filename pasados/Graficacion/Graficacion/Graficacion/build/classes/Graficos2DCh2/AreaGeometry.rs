@@ -1,0 +1,2 @@
+Graficos2DCh2.AreaPanel
+Graficos2DCh2.AreaGeometry

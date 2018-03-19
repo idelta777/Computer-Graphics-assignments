@@ -1,0 +1,31 @@
+convertir de conrdenadas discretas a continuas
+x'=x'
+y´= maxY - y
+
+(Xmax,Ymax)->(800,600)
+(2,2)->(2,598)
+
+
+iX(x) metodo para convertir de logica a discreta
+fx(x) metodo para convertir de discreta a logica
+iY(y) metodo para convertir de logica a discreta
+fy(y) metodo para convertir de discreta a logica
+
+redondear 48.3 -> 48  49,7 -> 49
+truncar   48.3 -> 48  49,7 -> 48
+
+redondeo
+int iX(float x){return Math.round(x)}
+float fx(int x){return float(x)}
+
+truncar
+int iX(float x){return int(x)}
+
+floar fx(int x){return float(x)+0.5F}
+
+para y 
+int iY(float y){return maxY-Math.round(y)}
+float fy(int y){return float(maxY-y)}
+
+xA1=p*xA+ q*xB
+yA1=p*yA+ q*yB

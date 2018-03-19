@@ -1,0 +1,10 @@
+Image
+productor ImageProducer 
+consumidor ImageConsumer 
+ImageObserver
+BufferedImage
+ColorModel
+Raster
+MediaTracker
+DrawImage
+metodo filter

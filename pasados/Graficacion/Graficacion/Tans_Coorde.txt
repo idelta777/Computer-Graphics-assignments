@@ -1,0 +1,15 @@
+Trasnf de coordenadas se le aplican al sistema de referencia
+Pasiva
+
+Traslación
+
+x'= x - h
+y'= y - k
+
+Rotacion
+r=
+| cos(T)  sin(T) 0|
+|-sin(T)  cos(T) 0|
+|  0       0     1|
+
+

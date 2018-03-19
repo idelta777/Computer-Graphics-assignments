@@ -1,0 +1,2 @@
+Graficos2DCh2.Tarea.ProyectoPanel
+Graficos2DCh2.Tarea.BezierSpline

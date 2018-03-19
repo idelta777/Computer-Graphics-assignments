@@ -1,0 +1,2 @@
+Graficos2DCh2.SpiroPanel
+Graficos2DCh2.Spirograph

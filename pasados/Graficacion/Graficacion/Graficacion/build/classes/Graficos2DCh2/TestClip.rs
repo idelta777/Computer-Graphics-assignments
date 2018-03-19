@@ -1,0 +1,2 @@
+Graficos2DCh2.ClipPanel
+Graficos2DCh2.TestClip

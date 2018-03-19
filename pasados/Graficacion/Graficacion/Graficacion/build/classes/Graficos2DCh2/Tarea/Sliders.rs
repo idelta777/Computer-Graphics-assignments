@@ -1,0 +1,2 @@
+Graficos2DCh2.Tarea.Sliders
+Graficos2DCh2.Tarea.SpiroSlaider
